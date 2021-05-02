@@ -1,19 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Posts() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Ezra Site</title>
         <meta name="description" content="מודעות צעירי חולון" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <div>
-        <h1 className={styles.title}>
+        <h1>
           מודעות
         </h1>
         </div>
