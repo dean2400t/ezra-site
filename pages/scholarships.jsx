@@ -9,7 +9,7 @@ export async function getStaticProps() {
     }
   }
 
-function WorkShops({scholarships}) {
+function Scholarships({scholarships}) {
     return (
         <ul>
             {scholarships.map((scholarship) => (
@@ -24,4 +24,4 @@ function WorkShops({scholarships}) {
     )
 }
 
-export default WorkShops;
+export default Scholarships;
